@@ -1,4 +1,4 @@
-const canvasSize = 800;
+const canvasSize = 700;
 const grSize = canvasSize;
 function setup() {
   createCanvas(canvasSize, canvasSize);
@@ -11,16 +11,16 @@ function draw() {
   pg.background(0);
   pg.fill(255);
   pg.textFont("Hind");
-  pg.textSize(canvasSize/2.9);
+  pg.textSize(canvasSize/2.5);
   pg.push();
   pg.translate(grSize/2, grSize/2);
   pg.textAlign(CENTER, CENTER);
   pg.textLeading(canvasSize/6.6-10);
-  pg.text("gost", -canvasSize/20.5, -canvasSize/40.25, 200);
+  pg.text("gost", -canvasSize/10.5, -canvasSize/30.25, 200);
   pg.pop();
 
   let tilesX = 50;
-  let tilesY = 8;
+  let tilesY = 6;
 
   let tileW = int(width/tilesX);
   let tileH = int(height/tilesY);
