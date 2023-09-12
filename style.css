@@ -1,86 +1,29 @@
-@import 'keyframes.css';
 @font-face {
 
 	font-family: cpmono;
 	src: url(cpmono.ttf);
-
 }
 
-* { 
-	margin: 0;
-	padding: 0;
-	-webkit-font-smoothing: antialiased;
-}
-
-body {
-	background-attachment: fixed;
-	background: url(noise.gif);
-	background-repeat: repeat, repeat;
-	color: #ffffff;
-	font: 10pt "cpmono", monospace;
-	text-shadow: 0px 0px 5px #ffffff;
-	text-transform: uppercase;
-}
-
-#bg {
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	overflow: hidden;
-}
-
-#bg img {
-	width: 200px;
-	height: 200px;
-	background-repeat: repeat; 
-}
-
-#glow {
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	overflow: hidden;
-}
-
-#glow img {
-	width: 1200px;
-	height: 900px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin: -500px 0 0 -600px;
-}
-
-ul {
-	display: block;
-    list-style: none;
-    position: fixed;
-    left:5%;
-    top: 10%;
-    width: 100%;
-}
-
-.typing {
-    position: relative;
-    display: inline-block;
-    width: 10px;
-    text-indent: -999em;
-    background: #ffffff;
-    -webkit-animation: flick 1s infinite;
-    -moz-animation: flick 1s infinite;
-    -ms-animation: flick 1s infinite;
-    -o-animation: flick 1s infinite;
-    animation: flick 1s infinite;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: #ffffff;
+  font: 10pt "cpmono", monospace;
+  text-shadow: 0px 0px 5px #ffffff;
+  text-transform: uppercase;
 }
 
 #links {
 	position: absolute;
-	font-size: smaller;
-	left: 5%;
+	font-family: cpmono;
+	font-size: 12px;
+	left: 15%;
 	top: 15%;
 	width: 100%;
 	margin: 0 auto;
@@ -89,7 +32,7 @@ ul {
 
 a {
 	color: #ffffff;
-	font: 12pt;
+	font: 12px;
 	text-decoration: none;
 	text-shadow: none;
 }
