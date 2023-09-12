@@ -1,5 +1,10 @@
 const canvasSize = 1500;
 const grSize = canvasSize;
+const canvas = document.createElement('canvas');
+canvas.width = 1500;
+canvas.height = 1500;
+const ctx = canvas.getContext('2d');
+ctx.fillRect(0, 0, 100, 100)
 function setup() {
   createCanvas(canvasSize, canvasSize);
   frameRate(30);
