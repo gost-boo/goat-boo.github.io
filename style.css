@@ -13,32 +13,27 @@ html, body {
   overflow: hidden;
   align-items: center;
   justify-content: center;
-  background-color: black;
-  color: #ffffff;
+  background-color: #000;
+  color: #fff;
   font: 10pt "cpmono", monospace;
-  text-shadow: 0px 0px 5px #ffffff;
   text-transform: uppercase;
 }
 
 #links {
-	position: absolute;
+	position: fixed;
 	font-family: cpmono;
-	font-size: 12px;
 	left: 15%;
 	bottom: 15%;
 	width: 100%;
 	margin: 0 auto;
-	text-shadow: none;
 }
 
 a {
-	color: #ffffff;
-	font: 12px;
+	color: #fff;
 	text-decoration: none;
 	text-shadow: none;
 }
 
 a:hover {
-	text-shadow: 0px 0px 5px #ffffff;
-
+	text-shadow: 0px 0px 5px #fff;
 }
