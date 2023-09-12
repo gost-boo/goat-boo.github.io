@@ -11,7 +11,7 @@ function draw() {
   pg.background(0);
   pg.fill(255);
   pg.textFont("Hind");
-  pg.textSize(canvasSize/3);
+  pg.textSize(canvasSize/2.5);
   pg.push();
   pg.translate(grSize/2, grSize/2);
   pg.textAlign(CENTER, CENTER);
