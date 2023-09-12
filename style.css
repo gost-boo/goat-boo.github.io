@@ -20,7 +20,7 @@ html, body {
 }
 
 #links {
-	position: fixed;
+	position: absolute;
 	font-family: cpmono;
 	left: 15%;
 	bottom: 15%;
