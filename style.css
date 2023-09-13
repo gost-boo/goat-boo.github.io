@@ -1,7 +1,7 @@
 @font-face {
 
 	font-family: cpmono;
-	src: url(cpmono.ttf);
+	src: url(/resource/cpmono.ttf);
 }
 
 html, body {
