@@ -1,51 +1,73 @@
 @font-face  {
-	font-family: 'systemia';
-	src: url(resources/systemia.otf);
+  font-family: 'necto-mono';
+  src: url(./necto_mono.otf);
 }
 
 body {
-	background-color: #172D16;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  text-align: left;
 }
 
 .container {
-  text-align: center;
-  position: relative;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  max-width: 550px;
-  height: auto;
+  max-width: 1200px;
   margin: 0 auto;
-  padding-top: 90px;
+  padding: 20px;
 }
 
-.logo-container {
-  position: absolute;
-  top: -10%;
-  left: 50%;
-  transform: translateX(-50%);
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
 }
 
 .logo {
-  width: 315px;
-  height: 370px;
-  position: relative;
+  width: 250px;
+  height: auto;
+  margin-right: 30px;
   z-index: 1;
 }
 
 .links {
-  margin-top: 10px;
-  margin-left: auto;
+  position: absolute;
+  top: calc(37%);
+  left: 0;
+  margin-left: calc(8% + 10px);
+  z-index: 1;
 }
 
-.links a {
-  font-family: 'systemia', sans-serif;
-  font-size: 20px;
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  font-family: 'necto-mono', monospace, sans-serif;
+  font-size: 15px;
   text-transform: uppercase;
-  color: #3E4B25;
-  display: inline-block;
-  margin-bottom: 10px;
   text-decoration: none;
+  color: #fff;
+}
+
+.main-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
