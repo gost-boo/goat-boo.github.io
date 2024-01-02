@@ -71,3 +71,18 @@ nav ul li a {
   left: 50%;
   transform: translateX(-50%);
 }
+
+@media screen and (max-width: 768px) {
+  .image-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust spacing if needed */
+  }
+
+  .main-image {
+    position: relative;
+  }
+  
+  .links {
+    margin-left: calc(8% + -40px);
+  }
+}
