@@ -15,6 +15,7 @@ header {
 }
 
 .container {
+  position: relative;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
@@ -35,10 +36,10 @@ header {
 }
 
 .links {
-  position: absolute;
-  top: calc(37%);
-  left: 0;
-  margin-left: calc(8% + 10px);
+  position: absolute; 
+  top: 100%;
+  left: calc(1% + 4px);
+  margin-left: 12px;
   z-index: 1;
 }
 
@@ -75,7 +76,7 @@ nav ul li a {
 @media screen and (max-width: 768px) {
   .image-container {
     text-align: center;
-    margin-top: 20px; /* Adjust spacing if needed */
+    margin-top: 20px;
   }
 
   .main-image {
@@ -83,7 +84,7 @@ nav ul li a {
   }
   
   .links {
-    top: calc(42%);
-    margin-left: calc(14% + -30px);
+    top: calc(98% + 5px);
+    margin-left: calc(5% + -25px);
   }
 }
